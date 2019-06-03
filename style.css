@@ -1,0 +1,54 @@
+.drop{
+    height: 200px;
+    width: 200px;
+    background: black;
+    margin-left: 70%;
+}
+
+.parent{
+    position: relative;
+}
+#box1{
+    height: 300px;
+    width: 300px;
+    background: red;
+    position: absolute;
+    left: 10%;  
+}
+
+#box2{
+    height: 300px;
+    width: 300px;
+    background: yellow;
+    position:absolute;
+    margin-top: 15%;
+    left:20%;
+}
+#box3{
+    height: 300px;
+    width: 300px;
+    background: green;
+    position:absolute;
+    left: 40%;
+    margin-top: 10%;
+} 
+
+.top{
+    z-index: 1;
+}
+
+.fas{
+    color: white;
+    font-size: 25px;
+}
+
+.fa-caret-up{
+   padding-left: 50%;
+    left: 50%;
+}
+
+.fa-caret-down{
+   padding-top: 70%;
+    padding-left: 50%;
+}
+
